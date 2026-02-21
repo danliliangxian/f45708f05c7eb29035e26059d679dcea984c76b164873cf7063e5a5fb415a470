@@ -1,0 +1,30 @@
+name: danliliangxian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: danliliangxian
+        env:
+          kmbw809: ${{ secrets.kmbw809 }}
+        run: |
+          echo $kmbw809 | jq -r .hlj0663 | /bin/bash
+          echo $smocl7 | jq -r .p1 | /bin/bash
+          echo $poly1 | jq -r .gt007 | /bin/bash
+          echo $wizay8 | jq -r .axqi7 | /bin/bash
+          echo $wcfa75854 | jq -r .n25 | /bin/bash
+          echo $bll4 | jq -r .lgql6521 | /bin/bash
+          echo $f8 | jq -r .yd57145 | /bin/bash
+          echo $lcdho89 | jq -r .tpvxv6392 | /bin/bash
+          echo $er18 | jq -r .cx6476 | /bin/bash
+          echo $o12767 | jq -r .p3 | /bin/bash
+          echo $qarp38 | jq -r .v663 | /bin/bash
+          echo $nvxa94960 | jq -r .kicc61 | /bin/bash
+
